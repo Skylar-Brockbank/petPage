@@ -1,0 +1,29 @@
+img {
+  width: 100%;
+  height: auto;
+}
+
+.dark-theme {
+background-color: rgb(48, 0, 48);
+color: gold;
+}
+
+.light-theme {
+  background-color: whitesmoke;
+  color: rgb(0, 62, 104);
+}
+
+.lists {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-row: minmax(10em, auto);
+}
+
+.menue {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.butt {
+  align-self: center;
+  justify-self: center;
+}
